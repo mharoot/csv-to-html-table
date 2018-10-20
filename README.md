@@ -9,3 +9,9 @@ csv to html table generator.  Exploring all possible solutions including my own 
 # Main Chunking Method
 - Very intreseting method allows dynamically gradually appending of the rows of a csv file.
 - main-chunking-method.js
+- Overall time to load all objects is slower then main but more tolerable to look at and wait around to load.
+- chunking over a 100 doesn't look smooth it looks very unresponsive at 1000 items.
+- most optimal chunking amount is 20, smooth user can move on the table as the page finishes loading
+
+# Main
+- This one loads faster than the main chunking method but you have to wait 25 seconds to see anything occur on the screen.

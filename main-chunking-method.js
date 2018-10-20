@@ -48,7 +48,7 @@ $( document ).ready(function() {
     });
 
     function load_rows(arr, $tbody){
-        var chunk = 2;
+        var chunk = 20;
         
         (function loop(i) {
             if (i >= arr.length) return; // all done
